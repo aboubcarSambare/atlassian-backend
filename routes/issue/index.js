@@ -9,7 +9,7 @@ module.exports = async function (fastify, opts) {
     //const jiraEmail = process.env.JIRA_EMAIL;
     //const jiraApiToken = process.env.JIRA_API_TOKEN;
     const jiraDomain = process.env.JIRA_DOMAIN || 'sourcesense-demo.atlassian.net'; 
-    const authHeader = 'Basic ' + Buffer.from(`aboubacar.sambare@sourcesense.com:ayaB5ivBlzVPZsV4EwLXA370`).toString('base64');
+    const authHeader = 'Basic ' + Buffer.from(`aboubacar.sambare@sourcesense.com:token`).toString('base64');
   
   
       const { body } = request;
